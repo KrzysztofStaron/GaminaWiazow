@@ -1,7 +1,7 @@
 body {
   background-color: #95afc0;
   font-family: 'Noto Sans', sans-serif;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5); /* 0.5 to przezroczytaść od 0 do 1*/
   text-align: center;
 }
 
