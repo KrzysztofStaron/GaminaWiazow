@@ -2,6 +2,7 @@ body {
   background-color: #95afc0;
   font-family: 'Noto Sans', sans-serif;
   color: #535c68;
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
