@@ -4,3 +4,17 @@ body {
   color: #535c68;
   text-align: center;
 }
+
+.main
+{
+ background-color: #8aa5b8;
+ width: 1000px;
+ height: 100px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+h1
+{
+  font-size: 70px;
+}
