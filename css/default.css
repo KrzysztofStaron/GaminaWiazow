@@ -27,6 +27,10 @@ span.button {
   transition: rotate(0deg) 10s;
 }
 
+span.button > a{
+  all: unset;
+}
+
 span.button:hover{
   cursor: pointer;
   border: 2px solid white;
