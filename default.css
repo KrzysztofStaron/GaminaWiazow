@@ -1,0 +1,73 @@
+body {
+  background-color: #95afc0;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.5); /* 0.5 to przezroczytaść od 0 do 1*/
+  text-align: center;
+}
+
+span.button {
+  /* Wyłaczenie możliwości kopiowania textu*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  border: 2px solid #fff;
+  color: #eee;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 16px;
+
+  transition: rotate(0deg) 10s;
+}
+
+span.button:hover{
+  cursor: pointer;
+  border: 2px solid white;
+
+  animation-name: spanButton;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spanButtonBack {
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes spanButton {
+  0%   {
+    transform: rotate(0deg);
+    border: 2px solid #fff;
+  }
+
+  20% {
+    transform: rotate(-4deg);
+  }
+
+  40% {
+    transform: rotate(4deg);
+      border: 2px solid #ddd;
+  }
+
+  60% {
+    transform: rotate(-4deg);
+      border: 2px solid #ddd;
+  }
+
+  80% {
+    transform: rotate(4deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+    border: 2px solid #fff;
+  }
+}
