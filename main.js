@@ -4,7 +4,7 @@ const randomInfo = () => {
     "test2"
   ];
 
-  document.getElementById('aInSpan').href = 'info/' + infoArray[(Math.floor(Math.random() * infoArray.length))];
+  document.getElementById('aInSpan').href = 'info/' + infoArray[(Math.floor(Math.random() * infoArray.length))] + ".html";
 }
 
 const setup = () => {

@@ -8,9 +8,9 @@
  margin-right: 10%;
  border-radius: 30px;
 
- -webkit-box-shadow: 3px 6px 14px 3px rgba(66, 68, 90, 1);
- -moz-box-shadow: 3px 6px 14px 3px rgba(66, 68, 90, 1);
- box-shadow: 3px 6px 14px 3px rgba(66, 68, 90, 1);
+ -webkit-box-shadow: 3px 6px 14px 3px #0F4062;
+ -moz-box-shadow: 3px 6px 14px 3px #0F4062;
+ box-shadow: 3px 6px 14px 3px #0F4062;
 }
 
 #main > h1
